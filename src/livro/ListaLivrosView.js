@@ -19,10 +19,9 @@ export function ListaLivrosView() {
 
       <button>ADICIONAR</button>
 
-      {livros.map((c) => (
+      {livros.map((l) => (
         <div>
-          <p>Tipo: {c.tipo}</p>
-          <p>Nome: {c.nome}</p>
+          <p>Title: {l.title}</p>
           <button>Excluir</button>
           <button>Editar</button>
         </div>
